@@ -1,10 +1,10 @@
 <p align="center">
-    <h1>Welcome To My Bible</h1>  
+    <h1 align = "center">Welcome To My Bible</h1>  
 </p>
 
 <p align="center">A recreation of the Secret Tree of Knowledge</p>
 
-## :shinto_shrine: &nbsp;Table of Contents
+## ⛩️ &nbsp;Table of Contents
 
 - **[Repos]()**
 - **[CLI Tools]()**
@@ -27,6 +27,12 @@
 #### Systems & Services
 
 #### Networks
+
+#### 🏯 DNS
+
+#### 🏯 HTTP
+
+#### 🏯 SSL
 
 #### Containers
 
