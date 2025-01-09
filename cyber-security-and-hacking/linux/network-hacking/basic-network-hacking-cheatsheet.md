@@ -1,9 +1,7 @@
 ---
-modified: 2025-01-09T22:26:13.691Z
-title: Hacking Tools Cheatsheet
+modified: 2025-01-09T22:47:17.906Z
+title: Basic Linux Hacking Tools
 ---
-
-# Hacking Tools Cheatsheet
 
 ## Basic Linux Networking Tools
 
