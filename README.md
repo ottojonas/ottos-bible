@@ -51,8 +51,7 @@
 
 #### Network Hacking
 
-- ##### [Linux Networking Commands](https://github.com/ottojonas/ottos-bible/blob/main/cyber-security-and-hacking/linux/network-hacking/basic-network-hacking-cheatsheet.md
-)
+- ##### [Linux Networking Commands](https://github.com/ottojonas/ottos-bible/blob/main/cyber-security-and-hacking/linux/network-hacking/basic-network-hacking-cheatsheet.md)
 
 #### Operating Systems
 
