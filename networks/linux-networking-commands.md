@@ -129,12 +129,15 @@ sslyze --regular <ip>:<port>
 socat TCP-LISTEN:<port>,fork,reuseaddr ssl:<url>:<port>
 ```
 
+#### Online TLS Tests
 
-## HTTP Tools 
+- [SSL Labs](ssllabs.com)
+- [Hardenize](hardenize.com)
+
+## HTTP Tools
 
 ## Sniffing
 
 ## Network Scanning
 
-## Shells 
-
+## Shells
