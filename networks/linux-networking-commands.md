@@ -1,13 +1,7 @@
 ---
-modified: 2025-01-09T22:22:45.229Z
+modified: 2025-01-09T22:26:13.691Z
 title: Hacking Tools Cheatsheet
 ---
-
-<style>
-    body {
-        font-family: "'Fira Code', 'Cascadia Code', 'JetBrain Mono', monospace"
-    }
-</style>
 
 # Hacking Tools Cheatsheet
 

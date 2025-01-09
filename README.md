@@ -1,9 +1,3 @@
-<style>
-    body {
-        font-family: "'Fira Code', 'Cascadia Code', 'JetBrain Mono', monospace"
-    }
-</style>
-
 <p align="center">
     <h1 align = "center">Welcome To My Bible</h1>
     <img src = 'assets/ottos-bible-logo.png' />  
