@@ -31,6 +31,8 @@
 
 #### 🏯 Networking Basics
 
+- ##### [Linux Networking Commands](https://github.com/ottojonas/ottos-bible/networks/linux-networking-commands.md)
+
 #### 🏯 DNS
 
 #### 🏯 HTTP
