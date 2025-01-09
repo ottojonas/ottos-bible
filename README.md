@@ -1,8 +1,16 @@
+<style>
+    body {
+        font-family: "'Fira Code', 'Cascadia Code', 'JetBrain Mono', monospace"
+    }
+</style>
+
 <p align="center">
-    <h1 align = "center">Welcome To My Bible</h1>  
+    <h1 align = "center">Welcome To My Bible</h1>
+    <img src = 'assets/ottos-bible-logo.png' />  
 </p>
 
 <p align="center">A recreation of the Secret Tree of Knowledge</p>
+<p align = "center">By Yours Truly</p>
 
 ## ⛩️ &nbsp;Table of Contents
 
