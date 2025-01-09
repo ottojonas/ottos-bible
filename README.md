@@ -33,8 +33,6 @@
 
 #### 🏯 Networking Basics
 
-- ##### [Linux Networking Commands](https://github.com/ottojonas/ottos-bible/blob/main/networks/linux-networking-commands.md)
-
 #### 🏯 DNS
 
 #### 🏯 HTTP
@@ -48,6 +46,13 @@
 #### Blogs & Newsletters
 
 #### Cyber Security & Hacking
+
+#### 🏯 Linux
+
+#### Network Hacking
+
+- ##### [Linux Networking Commands](https://github.com/ottojonas/ottos-bible/blob/main/cyber-security-and-hacking/linux/network-hacking/basic-network-hacking-cheatsheet.md
+)
 
 #### Operating Systems
 
