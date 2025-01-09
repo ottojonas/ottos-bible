@@ -1,6 +1,6 @@
 <p align="center">
     <h1 align = "center">Welcome To My Bible</h1>
-    <img src = 'assets/ottos-bible-logo.png' />  
+    <img align = "center" width = 100% src = 'assets/ottos-bible-logo.png' />  
 </p>
 
 <p align="center">A recreation of the Secret Tree of Knowledge</p>
