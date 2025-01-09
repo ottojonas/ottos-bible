@@ -15,6 +15,7 @@
 - **[Tutorials / How-To's]()**
 - **[Blogs / Newsletters]()**
 - **[Cyber Secuirty / Hacking]()**
+- **[Operating Systems]()**
 - **[Random Cheatsheets]()**
 - **[Shell (One-Liners / Tricks / Functions)]()**
 
@@ -27,6 +28,8 @@
 #### Systems & Services
 
 #### Networks
+
+#### 🏯 Networking Basics
 
 #### 🏯 DNS
 
@@ -41,6 +44,14 @@
 #### Blogs & Newsletters
 
 #### Cyber Security & Hacking
+
+#### Operating Systems
+
+#### 🏯 Linux
+
+#### 🏯 Windows
+
+#### 🏯 MacOS
 
 #### Random Cheatsheets
 
