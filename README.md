@@ -8,18 +8,20 @@
 
 ## ⛩️ &nbsp;Table of Contents
 
-- **[Repos]()**
-- **[CLI Tools]()**
-- **[Web Tools]()**
-- **[Systems & Services]()**
-- **[Networks]()**
-- **[Container]()**
-- **[Tutorials / How-To's]()**
-- **[Blogs / Newsletters]()**
-- **[Cyber Secuirty / Hacking]()**
-- **[Operating Systems]()**
-- **[Random Cheatsheets]()**
-- **[Shell (One-Liners / Tricks / Functions)]()**
+- **[Repos](#repos)**
+- **[CLI Tools](#cli-tools)**
+- **[Web Tools](#web-tools)**
+- **[Systems & Services](#systems--services)**
+- **[Networks](#networks)**
+- **[Container](#containers)**
+- **[Tutorials / How-To's](#tutorials--how-tos)**
+- **[Blogs / Newsletters](#blogs--newsletters)**
+- **[Cyber Secuirty / Hacking](#cyber-security--hacking)**
+- **[Operating Systems](#operating-systems)**
+- **[Random Cheatsheets](#random-cheatsheets)**
+- **[Programming](#programming)**
+- **[Shell (One-Liners / Tricks / Functions)](#shell)**
+- **[Project Learning](#project-learning)**
 
 #### Repos
 
@@ -51,12 +53,11 @@
 
 #### Network Hacking
 
-- ##### [Linux Networking Commands](https://github.com/ottojonas/ottos-bible/blob/main/cyber-security-and-hacking/linux/network-hacking/basic-network-hacking-cheatsheet.md) - Linux Network Hacking Commands 
-- #### Website 
-    - Online SSL Test
-        - [SSL Labs](ssllabs.com)
-        - [Hardenize](hardenize.com)
-        
+- ##### [Linux Networking Commands](https://github.com/ottojonas/ottos-bible/blob/main/cyber-security-and-hacking/linux/network-hacking/basic-network-hacking-cheatsheet.md) - Linux Network Hacking Commands
+- #### Website
+  - Online SSL Test
+    - [SSL Labs](ssllabs.com)
+    - [Hardenize](hardenize.com)
 
 #### Operating Systems
 
@@ -67,6 +68,8 @@
 #### 🏯 MacOS
 
 #### Random Cheatsheets
+
+#### Programming
 
 #### Shell
 
