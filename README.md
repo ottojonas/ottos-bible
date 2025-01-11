@@ -53,6 +53,8 @@
 
 #### Network Hacking
 
+- #### [Nmap Commands](https://github.com/ottojonas/ottos-bible/blob/main/cyber-security-and-hacking/nmap-commands.md)
+
 - ##### [Linux Networking Commands](https://github.com/ottojonas/ottos-bible/blob/main/cyber-security-and-hacking/linux/network-hacking/basic-network-hacking-cheatsheet.md) - Linux Network Hacking Commands
 - #### Website
   - Online SSL Test
