@@ -78,9 +78,9 @@
 #### 🏯 Project Learning
 
 - #### Python
-  - #### [Sorting and Searching Algorithms](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/sorting-and-searching-algorithms.py)
-  - #### [Simple Binary Search Tree](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/simple-binary-search-tree.py)
-  - #### [Simple Binary Search Tree](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/simple-binary-search-tree.py)
-  - #### [Collatz Conjecture](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/collatz-conjecture.py)
+  - #### [Sorting and Searching Algorithms](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/algorithms/sorting-and-searching-algorithms.py)
+  - #### [Simple Binary Search Tree](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/algorithms/simple-binary-search-tree.py)
+  - #### [Simple Binary Search Tree](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/maths/simple-binary-search-tree.py)
+  - #### [Collatz Conjecture](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/maths/collatz-conjecture.py)
 
 #### Shell
