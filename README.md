@@ -25,6 +25,8 @@
 
 #### Repos
 
+#### 🏯 [Project Based Learning](https://github.com/Filip-Nachov/project-based-learning)
+
 #### CLI Tools
 
 #### Web Tools
@@ -73,6 +75,9 @@
 
 #### Programming
 
-#### 🏯 [Project Learning]()
+#### 🏯 Project Learning
+
+- #### Python
+  - #### [Sorting and Searching Algorithms](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/sorting-and-searching-algorithms.py)
 
 #### Shell
