@@ -21,7 +21,7 @@
 - **[Random Cheatsheets](#random-cheatsheets)**
 - **[Programming](#programming)**
 - **[Shell (One-Liners / Tricks / Functions)](#shell)**
-- **[Project Learning](#project-learning)**
+- **[Programming](#programming)**
 
 #### Repos
 
