@@ -86,16 +86,20 @@
 #### 🏯 Project Learning
 
 - #### Python
-  - #### [Sorting and Searching Algorithms](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/sorting-and-searching-algorithms.py)
-  - #### [Simple Binary Search Tree](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/simple-binary-search-tree.py)
-  - #### [Simple Binary Search Tree](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/simple-binary-search-tree.py)
-  - #### [Collatz Conjecture](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/collatz-conjecture.py)
-  - #### [Prime Numbers](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/prime-numbers.py)
-  - #### [Hashing Algorithm](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/hashing.py)
 
-
+  - #### [Sorting and Searching Algorithms](project-learning/python/algorithms/sorting-and-searching-algorithms.py)
+  - #### [Simple Binary Search Tree](project-learning/python/algorithms/simple-binary-search-tree.py)
+  - #### [Collatz Conjecture](project-learning/python/maths/collatz-conjecture.py)
+  - #### [Prime Numbers](project-learning/python/maths/prime-numbers.py)
+  - #### [Hashing Algorithm](project-learning/python/algorithms/hashing.py)
+  - #### [Russian Peasant Long Multiplication](project-learning/python/maths/russian-peasant-long-multiplication.py)
 
 - #### C++
-  - #### [Binary Search](project-learning/c++/Binary_Search.cpp)
+  - #### [Binary Search](project-learning/c++/algorithms/Binary_Search.cpp)
+  - #### [Hashing](project-learning/c++/algorithms/hashing.cpp)
+  - #### [Sorting and Searching Algorithms](project-learning/c++/algorithms/sorting_and_searching_algos.cpp)
+  - #### [Collatz Conjecture](project-learning/c++/maths/collatz_conjecture.cpp)
+  - #### [Prime Numbers](project-learning/c++/maths/prime_numbers.cpp)
+  - #### [Russian Peasant Long Multiplication](project-learning/c++/maths/russian_peasant_long_multiplication.cpp)
 
 #### Shell
