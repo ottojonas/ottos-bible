@@ -1,8 +1,9 @@
 <p align="center">
     <h1 align = "center">Welcome To My Bible</h1>
-    <img align="center" src="assets/Untitled.png">
 </p>
-
+<div align = "center">
+    <img align = "center" src="assets/Untitled.png" />
+</div>
 <p align="center">A recreation of <a href="https://github.com/trimstray/the-book-of-secret-knowledge">The Secret Tree of Knowledge</a></p>
 <p align = "center">By Yours Truly</p>
 
