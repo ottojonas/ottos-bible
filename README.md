@@ -83,4 +83,7 @@
   - #### [Simple Binary Search Tree](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/maths/simple-binary-search-tree.py)
   - #### [Collatz Conjecture](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/maths/collatz-conjecture.py)
 
+- #### C++
+  - #### [Binary Search](project-learning/c++/Binary_Search.cpp)
+
 #### Shell
