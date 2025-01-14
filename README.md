@@ -10,6 +10,7 @@
 
 ## ⛩️ &nbsp;Table of Contents
 
+- **[Fundamental Knowledge](#fundamental-knowledge)**
 - **[Repos](#repos)**
 - **[CLI Tools](#cli-tools)**
 - **[Web Tools](#web-tools)**
@@ -25,6 +26,10 @@
 - **[Programming](#programming)**
 - **[Shell (One-Liners / Tricks / Functions)](#shell)**
 - **[Programming](#programming)**
+
+#### Fundamental Knowledge
+
+#### 🏯 [Data Structures](fundamental-knowledge/data-structures)
 
 #### Repos
 
