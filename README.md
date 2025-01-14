@@ -96,7 +96,7 @@
 
 <details>
   <summary><a href = "programming/project-learning/c++">C++</a></summary>
-  <ul style="margin-left: 20px;">
+  <ul">
     <li><a href="programming/project-learning/c++/algorithms/Binary_Search.cpp">Binary Search</a></li>
     <li><a href="programming/project-learning/c++/algorithms/Linked_Lists.cpp">Linked Lists</a></li>
     <li><a href="programming/project-learning/c++/algorithms/hashing.cpp">Hashing</a></li>
@@ -147,7 +147,7 @@
 </details>
 <details>
   <summary><a href = "programming/project-learning/python">Python</a></summary>
-  <ul style="margin-left: 20px;">
+  <ul>
     <li><a href="programming/project-learning/python/algorithms/sorting-and-searching-algorithms.py">Sorting and Searching Algorithms</a></li>
     <li><a href="programming/project-learning/python/algorithms/simple-binary-search-tree.py">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/python/algorithms/hashing.py">Hashing Algorithm</a></li>
