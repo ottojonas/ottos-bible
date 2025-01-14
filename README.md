@@ -84,25 +84,31 @@
 
 #### 🏯 Project Learning
 
-- #### Python
-
-  - #### [Sorting and Searching Algorithms](programming/project-learning/python/algorithms/sorting-and-searching-algorithms.py)
-  - #### [Simple Binary Search Tree](programming/project-learning/python/algorithms/simple-binary-search-tree.py)
-  - #### [Collatz Conjecture](programming/project-learning/python/maths/collatz-conjecture.py)
-  - #### [Prime Numbers](programming/project-learning/python/maths/prime-numbers.py)
-  - #### [Hashing Algorithm](programming/project-learning/python/algorithms/hashing.py)
-  - #### [Linked Lists](programming/project-learning/python/algorithms/linked-lists.py)
-  - #### [Russian Peasant Long Multiplication](programming/project-learning/python/maths/russian-peasant-long-multiplication.py)
-
-- #### C++
-  - #### [Binary Search](programming/project-learning/c++/algorithms/Binary_Search.cpp)
-  - #### [Linked Lists](programming/project-learning/c++/algorithms/Linked_Lists.cpp)
-  - #### [Hashing](programming/project-learning/c++/algorithms/hashing.cpp)
-  - #### [Sorting and Searching Algorithms](programming/project-learning/c++/algorithms/sorting_and_searching_algos.cpp)
-  - #### [Collatz Conjecture](programming/project-learning/c++/maths/collatz_conjecture.cpp)
-  - #### [Prime Numbers](programming/project-learning/c++/maths/prime_numbers.cpp)
-  - #### [Russian Peasant Long Multiplication](programming/project-learning/c++/maths/russian_peasant_long_multiplication.cpp)
-
+<details>
+  <summary><a href = "programming/project-learning/python">Python</a></summary>
+  <ul style="margin-left: 20px;">
+    <li><a href="programming/project-learning/python/algorithms/sorting-and-searching-algorithms.py">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/python/algorithms/simple-binary-search-tree.py">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/python/maths/collatz-conjecture.py">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/python/maths/prime-numbers.py">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/python/algorithms/hashing.py">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/python/algorithms/linked-lists.py">Linked Lists</a></li>
+    <li><a href="programming/project-learning/python/maths/russian-peasant-long-multiplication.py">Russian Peasant Long Multiplication</a></li>
+  </ul>
+</details>
+<br>
+<details>
+  <summary><a href = "programming/project-learning/c++">C++</a></summary>
+  <ul style="margin-left: 20px;">
+    <li><a href="programming/project-learning/c++/algorithms/Binary_Search.cpp">Binary Search</a></li>
+    <li><a href="programming/project-learning/c++/algorithms/Linked_Lists.cpp">Linked Lists</a></li>
+    <li><a href="programming/project-learning/c++/algorithms/hashing.cpp">Hashing</a></li>
+    <li><a href="programming/project-learning/c++/algorithms/sorting_and_searching_algos.cpp">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/c++/maths/collatz_conjecture.cpp">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/c++/maths/prime_numbers.cpp">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/c++/maths/russian_peasant_long_multiplication.cpp">Russian Peasant Long Multiplication</a></li>
+  </ul>
+</details>
 #### 🏯 Git | GitHub | Gist
 
 - #### Git
