@@ -79,6 +79,9 @@
 
 #### 🏯 Language Documentation Summaries
 
+- #### [Python](programming/documentation_summaries/python.md)
+- #### [cpp](programming/documentation_summaries/cpp.md)
+
 #### 🏯 Project Learning
 
 - #### Python
