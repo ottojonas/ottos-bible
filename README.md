@@ -83,5 +83,6 @@
   - #### [Simple Binary Search Tree](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/simple-binary-search-tree.py)
   - #### [Collatz Conjecture](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/collatz-conjecture.py)
   - #### [Prime Numbers](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/prime-numbers.py)
+  - #### [Hashing Algorithm](https://github.com/ottojonas/ottos-bible/blob/main/project-learning/python/hashing.py)
 
 #### Shell
