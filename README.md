@@ -10,6 +10,7 @@
 
 ## ⛩️ &nbsp;Table of Contents
 
+- **[Fundamental Knowledge](#fundamental-knowledge)**
 - **[Repos](#repos)**
 - **[CLI Tools](#cli-tools)**
 - **[Web Tools](#web-tools)**
@@ -25,6 +26,19 @@
 - **[Programming](#programming)**
 - **[Shell (One-Liners / Tricks / Functions)](#shell)**
 - **[Programming](#programming)**
+
+#### Fundamental Knowledge
+
+#### 🏯 [Data Structures](fundamental-knowledge/data-structures)
+
+- ##### [Abstract Data Types](fundamental-knowledge/data-structures/abstract-data-types.md)
+- ##### [Access Types](fundamental-knowledge/data-structures/access-types.md)
+- ##### [Dynamic Data Structures](fundamental-knowledge/data-structures/dynamic-data-structure.md)
+
+#### 🏯 [Maths](fundamental-knowledge/maths)
+
+- ##### [Floating Point](fundamental-knowledge/maths/floating-point.md)
+- ##### [Two's Compliment](fundamental-knowledge/maths/twos-compliment.md)
 
 #### Repos
 
