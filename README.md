@@ -1,6 +1,6 @@
 <p align="center">
     <h1 align = "center">Welcome To My Bible</h1>
-
+    <img align="center" src="assets/Untitled.png">
 </p>
 
 <p align="center">A recreation of <a href="https://github.com/trimstray/the-book-of-secret-knowledge">The Secret Tree of Knowledge</a></p>
