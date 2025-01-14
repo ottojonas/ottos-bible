@@ -91,6 +91,9 @@
     <li><a href="programming/project-learning/bash/algorithms/simple-binary-search-tree.bash">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/bash/algorithms/hashing.bash">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/bash/algorithms/linked-lists.bash">Linked Lists</a></li>
+    <li><a href="programming/project-learning/bash/maths/collatz-conjecture.bash">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/bash/maths/prime-numbers.bash">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/bash/maths/russian-peasant-long-multiplication.bash">Russian Peasant Long Multiplication</a></li>
   </ul>
 </details>
 
@@ -114,6 +117,9 @@
     <li><a href="programming/project-learning/javascript/algorithms/simple-binary-search-tree.js">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/javascript/algorithms/hashing.js">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/javascript/algorithms/linked-lists.js">Linked Lists</a></li>
+    <li><a href="programming/project-learning/javascript/maths/collatz-conjecture.js">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/javascript/maths/prime-numbers.js">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/javascript/maths/russian-peasant-long-multiplication.js">Russian Peasant Long Multiplication</a></li>
   </ul>
 </details>
 
@@ -124,6 +130,9 @@
     <li><a href="programming/project-learning/lua/algorithms/simple-binary-search-tree.lua">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/lua/algorithms/hashing.lua">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/lua/algorithms/linked-lists.lua">Linked Lists</a></li>
+    <li><a href="programming/project-learning/lua/maths/collatz-conjecture.lua">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/lua/maths/prime-numbers.lua">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/lua/maths/russian-peasant-long-multiplication.lua">Russian Peasant Long Multiplication</a></li>
   </ul>
 </details>
 
@@ -134,6 +143,9 @@
     <li><a href="programming/project-learning/perl/algorithms/simple-binary-search-tree.pl">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/perl/algorithms/hashing.pl">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/perl/algorithms/linked-lists.pl">Linked Lists</a></li>
+    <li><a href="programming/project-learning/perl/maths/collatz-conjecture.pl">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/perl/maths/prime-numbers.pl">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/perl/maths/russian-peasant-long-multiplication.pl">Russian Peasant Long Multiplication</a></li>
   </ul>
 </details>
 <details>
@@ -143,6 +155,9 @@
     <li><a href="programming/project-learning/php/algorithms/simple-binary-search-tree.php">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/php/algorithms/hashing.php">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/php/algorithms/linked-lists.php">Linked Lists</a></li>
+    <li><a href="programming/project-learning/php/maths/collatz-conjecture.php">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/php/maths/prime-numbers.php">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/php/maths/russian-peasant-long-multiplication.php">Russian Peasant Long Multiplication</a></li>
   </ul>
 </details>
 <details>
@@ -165,6 +180,9 @@
     <li><a href="programming/project-learning/r/algorithms/simple-binary-search-tree.r">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/r/algorithms/hashing.r">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/r/algorithms/linked-lists.r">Linked Lists</a></li>
+    <li><a href="programming/project-learning/r/maths/collatz-conjecture.r">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/r/maths/prime-numbers.r">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/r/maths/russian-peasant-long-multiplication.r">Russian Peasant Long Multiplication</a></li>
   </ul>
 </details>
 <details>
@@ -174,6 +192,9 @@
     <li><a href="programming/project-learning/ruby/algorithms/simple-binary-search-tree.ru">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/ruby/algorithms/hashing.ru">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/ruby/algorithms/linked-lists.ru">Linked Lists</a></li>
+    <li><a href="programming/project-learning/ruby/maths/collatz-conjecture.ru">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/ruby/maths/prime-numbers.ru">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/ruby/maths/russian-peasant-long-multiplication.ru">Russian Peasant Long Multiplication</a></li>
   </ul>
 </details>
 
