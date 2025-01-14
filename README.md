@@ -96,5 +96,6 @@
 
 - #### C++
   - #### [Binary Search](project-learning/c++/Binary_Search.cpp)
+  - #### [Linked Lists](project-learning/c++/Linked_Lists.cpp)
 
 #### Shell
