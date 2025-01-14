@@ -15,6 +15,7 @@
 - **[Web Tools](#web-tools)**
 - **[Systems & Services](#systems--services)**
 - **[Networks](#networks)**
+- **[Machine Leaning & AI](#machine-learning--ai)**
 - **[Container](#containers)**
 - **[Tutorials / How-To's](#tutorials--how-tos)**
 - **[Blogs / Newsletters](#blogs--newsletters)**
@@ -45,7 +46,7 @@
 
 #### 🏯 SSL
 
-#### Containers
+#### Machine Learning & AI
 
 #### Tutorials & How To's
 
