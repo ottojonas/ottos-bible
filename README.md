@@ -85,18 +85,15 @@
 #### 🏯 Project Learning
 
 <details>
-  <summary><a href = "programming/project-learning/python">Python</a></summary>
-  <ul style="margin-left: 20px;">
-    <li><a href="programming/project-learning/python/algorithms/sorting-and-searching-algorithms.py">Sorting and Searching Algorithms</a></li>
-    <li><a href="programming/project-learning/python/algorithms/simple-binary-search-tree.py">Simple Binary Search Tree</a></li>
-    <li><a href="programming/project-learning/python/maths/collatz-conjecture.py">Collatz Conjecture</a></li>
-    <li><a href="programming/project-learning/python/maths/prime-numbers.py">Prime Numbers</a></li>
-    <li><a href="programming/project-learning/python/algorithms/hashing.py">Hashing Algorithm</a></li>
-    <li><a href="programming/project-learning/python/algorithms/linked-lists.py">Linked Lists</a></li>
-    <li><a href="programming/project-learning/python/maths/russian-peasant-long-multiplication.py">Russian Peasant Long Multiplication</a></li>
+  <summary><a href = "programming/project-learning/bash">Bash</a></summary>
+  <ul>
+    <li><a href="programming/project-learning/bash/algorithms/sorting-and-searching-algorithms.bash">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/bash/algorithms/simple-binary-search-tree.bash">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/bash/algorithms/hashing.bash">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/bash/algorithms/linked-lists.bash">Linked Lists</a></li>
   </ul>
 </details>
-<br>
+
 <details>
   <summary><a href = "programming/project-learning/c++">C++</a></summary>
   <ul style="margin-left: 20px;">
@@ -109,6 +106,77 @@
     <li><a href="programming/project-learning/c++/maths/russian_peasant_long_multiplication.cpp">Russian Peasant Long Multiplication</a></li>
   </ul>
 </details>
+
+<details>
+  <summary><a href = "programming/project-learning/javascript">JavaScript</a></summary>
+  <ul>
+    <li><a href="programming/project-learning/javascript/algorithms/sorting-and-searching-algorithms.js">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/javascript/algorithms/simple-binary-search-tree.js">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/javascript/algorithms/hashing.js">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/javascript/algorithms/linked-lists.js">Linked Lists</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><a href = "programming/project-learning/lua">Lua</a></summary>
+  <ul>
+    <li><a href="programming/project-learning/lua/algorithms/sorting-and-searching-algorithms.lua">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/lua/algorithms/simple-binary-search-tree.lua">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/lua/algorithms/hashing.lua">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/lua/algorithms/linked-lists.lua">Linked Lists</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><a href = "programming/project-learning/perl">Perl</a></summary>
+  <ul>
+    <li><a href="programming/project-learning/perl/algorithms/sorting-and-searching-algorithms.pl">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/perl/algorithms/simple-binary-search-tree.pl">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/perl/algorithms/hashing.pl">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/perl/algorithms/linked-lists.pl">Linked Lists</a></li>
+  </ul>
+</details>
+<details>
+  <summary><a href = "programming/project-learning/php">PHP</a></summary>
+  <ul>
+    <li><a href="programming/project-learning/php/algorithms/sorting-and-searching-algorithms.php">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/php/algorithms/simple-binary-search-tree.php">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/php/algorithms/hashing.php">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/php/algorithms/linked-lists.php">Linked Lists</a></li>
+  </ul>
+</details>
+<details>
+  <summary><a href = "programming/project-learning/python">Python</a></summary>
+  <ul style="margin-left: 20px;">
+    <li><a href="programming/project-learning/python/algorithms/sorting-and-searching-algorithms.py">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/python/algorithms/simple-binary-search-tree.py">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/python/algorithms/hashing.py">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/python/algorithms/linked-lists.py">Linked Lists</a></li>
+    <li><a href="programming/project-learning/python/maths/collatz-conjecture.py">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/python/maths/prime-numbers.py">Prime Numbers</a></li>
+    <li><a href="programming/project-learning/python/maths/russian-peasant-long-multiplication.py">Russian Peasant Long Multiplication</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary><a href = "programming/project-learning/r">R</a></summary>
+  <ul>
+    <li><a href="programming/project-learning/r/algorithms/sorting-and-searching-algorithms.r">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/r/algorithms/simple-binary-search-tree.r">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/r/algorithms/hashing.r">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/r/algorithms/linked-lists.r">Linked Lists</a></li>
+  </ul>
+</details>
+<details>
+  <summary><a href = "programming/project-learning/ruby">Ruby</a></summary>
+  <ul>
+    <li><a href="programming/project-learning/ruby/algorithms/sorting-and-searching-algorithms.ru">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/ruby/algorithms/simple-binary-search-tree.ru">Simple Binary Search Tree</a></li>
+    <li><a href="programming/project-learning/ruby/algorithms/hashing.ru">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/ruby/algorithms/linked-lists.ru">Linked Lists</a></li>
+  </ul>
+</details>
+
 #### 🏯 Git | GitHub | Gist
 
 - #### Git
