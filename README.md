@@ -92,6 +92,7 @@
 
 - #### C++
   - #### [Binary Search](programming/project-learning/c++/algorithms/Binary_Search.cpp)
+  - #### [Linked Lists](programming/project-learning/c++/Linked_Lists.cpp)
   - #### [Hashing](programming/project-learning/c++/algorithms/hashing.cpp)
   - #### [Sorting and Searching Algorithms](programming/project-learning/c++/algorithms/sorting_and_searching_algos.cpp)
   - #### [Collatz Conjecture](programming/project-learning/c++/maths/collatz_conjecture.cpp)
