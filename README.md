@@ -3,6 +3,7 @@
 
 </p>
 
+<p align = "center">Saving you the need to sit inside like I did</p>
 <p align="center">A recreation of <a href="https://github.com/trimstray/the-book-of-secret-knowledge">The Secret Tree of Knowledge</a></p>
 <p align = "center">By Yours Truly</p>
 
