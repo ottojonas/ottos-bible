@@ -91,6 +91,7 @@
   - #### [Collatz Conjecture](programming/project-learning/python/maths/collatz-conjecture.py)
   - #### [Prime Numbers](programming/project-learning/python/maths/prime-numbers.py)
   - #### [Hashing Algorithm](programming/project-learning/python/algorithms/hashing.py)
+  - #### [Linked Lists](programming/project-learning/python/algorithms/linked-lists.py)
   - #### [Russian Peasant Long Multiplication](programming/project-learning/python/maths/russian-peasant-long-multiplication.py)
 
 - #### C++
