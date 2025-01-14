@@ -79,8 +79,18 @@
 
 #### 🏯 Language Documentation Summaries
 
-- #### [Python](programming/documentation_summaries/python.md)
-- #### [cpp](programming/documentation_summaries/cpp.md)
+- ##### [Bash](programming/documentation_summaries/bash.md)
+- ##### [cpp](programming/documentation_summaries/cpp.md)
+- ##### [Go](programming/documentation_summaries/go.md)
+- ##### [JavaScript](programming/documentation_summaries/javascript.md)
+- ##### [Lua](programming/documentation_summaries/lua.md)
+- ##### [Perl](programming/documentation_summaries/perl.md)
+- ##### [PHP](programming/documentation_summaries/php.md)
+- ##### [Python](programming/documentation_summaries/python.md)
+- ##### [R](programming/documentation_summaries/r.md)
+- ##### [Ruby](programming/documentation_summaries/ruby.md)
+- ##### [Rust](programming/documentation_summaries/rust.md)
+- ##### [Zig](programming/documentation_summaries/Zig.md)
 
 #### 🏯 Project Learning
 
