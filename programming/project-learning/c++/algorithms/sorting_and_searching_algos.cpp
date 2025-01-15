@@ -6,12 +6,14 @@
 
 // Linear search algorithm
 bool linearSearch(const std::vector<int>& data, int searchKey) {
+    // Iterate through each element in the data
     for (int item : data) {
+        // Check if the current element matches the search key
         if (item == searchKey) {
-            return true;
+            return true; // Return true if found
         }
     }
-    return false;
+    return false; // Return false if not found
 }
 
 // Binary search algorithm
@@ -21,14 +23,14 @@ bool binarySearch(const std::vector<int>& data, int searchKey) {
     while (head <= tail) {
         int midPoint = head + (tail - head) / 2;
         if (data[midPoint] == searchKey) {
-            return true;
+            return true; // Return true if found
         } else if (data[midPoint] > searchKey) {
-            tail = midPoint - 1;
+            tail = midPoint - 1; // Search in the left half
         } else {
-            head = midPoint + 1;
+            head = midPoint + 1; // Search in the right half
         }
     }
-    return false;
+    return false; // Return false if not found
 }
 
 // Bubble sort algorithm
@@ -38,12 +40,12 @@ std::vector<int> bubbleSort(std::vector<int>& data) {
         bool swap = false;
         for (int i = 0; i < nlen; ++i) {
             if (data[i] > data[i + 1]) {
-                std::swap(data[i], data[i + 1]);
+                std::swap(data[i], data[i + 1]); // Swap elements if they are in the wrong order
                 swap = true;
             }
         }
         if (!swap) {
-            break;
+            break; // Exit if no swaps were made
         }
         nlen -= 1;
     }
@@ -56,10 +58,10 @@ std::vector<int> insertionSort(std::vector<int>& data) {
         int key = data[i];
         int j = i - 1;
         while (j >= 0 && data[j] > key) {
-            data[j + 1] = data[j];
+            data[j + 1] = data[j]; // Shift elements to the right
             j -= 1;
         }
-        data[j + 1] = key;
+        data[j + 1] = key; // Insert the key at the correct position
     }
     return data;
 }
@@ -70,13 +72,14 @@ std::vector<int> merge(const std::vector<int>& left, const std::vector<int>& rig
     size_t leftIndex = 0, rightIndex = 0;
     while (leftIndex < left.size() && rightIndex < right.size()) {
         if (left[leftIndex] <= right[rightIndex]) {
-            merged.push_back(left[leftIndex]);
+            merged.push_back(left[leftIndex]); // Add element from left half
             leftIndex += 1;
         } else {
-            merged.push_back(right[rightIndex]);
+            merged.push_back(right[rightIndex]); // Add element from right half
             rightIndex += 1;
         }
     }
+    // Add remaining elements from both halves
     merged.insert(merged.end(), left.begin() + leftIndex, left.end());
     merged.insert(merged.end(), right.begin() + rightIndex, right.end());
     return merged;
@@ -85,32 +88,32 @@ std::vector<int> merge(const std::vector<int>& left, const std::vector<int>& rig
 // Merge sort algorithm
 std::vector<int> mergeSort(std::vector<int>& data) {
     if (data.size() <= 1) {
-        return data;
+        return data; // Base case: return if the data size is 1 or less
     }
     size_t mid = data.size() / 2;
     std::vector<int> leftHalf(data.begin(), data.begin() + mid);
     std::vector<int> rightHalf(data.begin() + mid, data.end());
-    return merge(mergeSort(leftHalf), mergeSort(rightHalf));
+    return merge(mergeSort(leftHalf), mergeSort(rightHalf)); // Recursively sort and merge
 }
 
 // Quick sort algorithm
 std::vector<int> quickSort(std::vector<int>& data) {
     if (data.size() <= 1) {
-        return data;
+        return data; // Base case: return if the data size is 1 or less
     }
-    int pivot = data[0];
+    int pivot = data[0]; // Choose the first element as the pivot
     std::vector<int> less, greater;
     for (size_t i = 1; i < data.size(); ++i) {
         if (data[i] <= pivot) {
-            less.push_back(data[i]);
+            less.push_back(data[i]); // Elements less than or equal to pivot
         } else {
-            greater.push_back(data[i]);
+            greater.push_back(data[i]); // Elements greater than pivot
         }
     }
-    less = quickSort(less);
-    greater = quickSort(greater);
-    less.push_back(pivot);
-    less.insert(less.end(), greater.begin(), greater.end());
+    less = quickSort(less); // Recursively sort the less part
+    greater = quickSort(greater); // Recursively sort the greater part
+    less.push_back(pivot); // Add pivot to the sorted less part
+    less.insert(less.end(), greater.begin(), greater.end()); // Concatenate the sorted parts
     return less;
 }
 
@@ -118,7 +121,7 @@ std::vector<int> quickSort(std::vector<int>& data) {
 int getSearchKey() {
     int searchKey;
     std::cout << "Enter search key: ";
-    std::cin >> searchKey;
+    std::cin >> searchKey; // Read the search key from the user
     return searchKey;
 }
 
@@ -126,11 +129,11 @@ int getSearchKey() {
 std::vector<int> createData() {
     int numItems;
     std::cout << "Enter size of data set: ";
-    std::cin >> numItems;
+    std::cin >> numItems; // Read the size of the data set from the user
     std::vector<int> data(numItems);
-    srand(time(0));
+    srand(time(0)); // Seed the random number generator
     for (int& item : data) {
-        item = rand() % (numItems * 2) + 1;
+        item = rand() % (numItems * 2) + 1; // Generate random numbers
     }
     return data;
 }
@@ -138,15 +141,15 @@ std::vector<int> createData() {
 // Function to view the data
 void viewData(const std::vector<int>& data) {
     for (int item : data) {
-        std::cout << item << " ";
+        std::cout << item << " "; // Print each element in the data
     }
     std::cout << std::endl;
 }
 
 // Main function to run the program
 int main() {
-    std::vector<int> data = createData();
-    std::vector<int> tempData = data;
+    std::vector<int> data = createData(); // Create a random data set
+    std::vector<int> tempData = data; // Store a copy of the original data
     std::string choice;
     while (choice != "8") {
         std::cout << "1. Linear search\n";
@@ -159,36 +162,36 @@ int main() {
         std::cout << "8. Quit\n";
         std::cout << "9. Quick Sort\n";
         std::cout << "Make selection: ";
-        std::cin >> choice;
+        std::cin >> choice; // Read the user's choice
         if (choice == "1") {
             int searchKey = getSearchKey();
             std::cout << (linearSearch(data, searchKey) ? "Found" : "Not Found") << std::endl;
         } else if (choice == "2") {
             int searchKey = getSearchKey();
-            std::sort(data.begin(), data.end());
+            std::sort(data.begin(), data.end()); // Sort the data before binary search
             std::cout << (binarySearch(data, searchKey) ? "Found" : "Not Found") << std::endl;
         } else if (choice == "3") {
             clock_t start = clock();
-            data = bubbleSort(data);
+            data = bubbleSort(data); // Perform bubble sort
             clock_t end = clock();
             std::cout << "Total time: " << (1000.0 * (end - start) / CLOCKS_PER_SEC) << " ms" << std::endl;
         } else if (choice == "4") {
             clock_t start = clock();
-            data = insertionSort(data);
+            data = insertionSort(data); // Perform insertion sort
             clock_t end = clock();
             std::cout << "Total time: " << (1000.0 * (end - start) / CLOCKS_PER_SEC) << " ms" << std::endl;
         } else if (choice == "5") {
             clock_t start = clock();
-            data = mergeSort(data);
+            data = mergeSort(data); // Perform merge sort
             clock_t end = clock();
             std::cout << "Total time: " << (1000.0 * (end - start) / CLOCKS_PER_SEC) << " ms" << std::endl;
         } else if (choice == "6") {
-            viewData(data);
+            viewData(data); // View the current data
         } else if (choice == "7") {
-            data = tempData;
+            data = tempData; // Restore the original data
         } else if (choice == "9") {
             clock_t start = clock();
-            data = quickSort(data);
+            data = quickSort(data); // Perform quick sort
             clock_t end = clock();
             std::cout << "Total time: " << (1000.0 * (end - start) / CLOCKS_PER_SEC) << " ms" << std::endl;
         }

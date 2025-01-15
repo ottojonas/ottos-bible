@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Function to perform linear search
 linearSearch() {
     local data=("${!1}")
     local searchKey=$2
@@ -13,6 +14,7 @@ linearSearch() {
     return 1
 }
 
+# Function to perform binary search
 binarySearch() {
     local data=("${!1}")
     local searchKey=$2
@@ -33,6 +35,7 @@ binarySearch() {
     return 1
 }
 
+# Function to perform bubble sort
 bubbleSort() {
     local data=("${!1}")
     local nlen=$((${#data[@]} - 1))
@@ -54,6 +57,7 @@ bubbleSort() {
     echo "${data[@]}"
 }
 
+# Function to perform insertion sort
 insertionSort() {
     local data=("${!1}")
     for ((i = 1; i < ${#data[@]}; i++)); do
@@ -68,6 +72,7 @@ insertionSort() {
     echo "${data[@]}"
 }
 
+# Function to perform merge sort
 mergeSort() {
     local data=("${!1}")
     if [[ ${#data[@]} -le 1 ]]; then
@@ -82,6 +87,7 @@ mergeSort() {
     merge left[@] right[@]
 }
 
+# Function to merge two sorted arrays
 merge() {
     local left=("${!1}")
     local right=("${!2}")
@@ -100,6 +106,7 @@ merge() {
     echo "${result[@]}"
 }
 
+# Function to perform quick sort
 quickSort() {
     local data=("${!1}")
     if [[ ${#data[@]} -le 1 ]]; then
@@ -121,11 +128,13 @@ quickSort() {
     echo "${less[@]} $pivot ${greater[@]}"
 }
 
+# Function to get the search key from the user
 getSearchKey() {
     read -p "Enter search key: " searchKey
     echo $searchKey
 }
 
+# Function to create a data set with random values
 createData() {
     read -p "Enter size of data set: " numItems
     local data=()
@@ -135,11 +144,13 @@ createData() {
     echo "${data[@]}"
 }
 
+# Function to view the data set
 viewData() {
     local data=("${!1}")
     echo "${data[@]}"
 }
 
+# Main function to drive the program
 main() {
     local data=($(createData))
     local tempData=("${data[@]}")
@@ -193,4 +204,5 @@ main() {
     done
 }
 
+# Call the main function to start the program
 main
