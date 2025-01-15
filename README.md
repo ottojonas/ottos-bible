@@ -142,6 +142,7 @@
     <li><a href="programming/project-learning/javascript/algorithms/simple-binary-search-tree.js">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/javascript/algorithms/hashing.js">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/javascript/algorithms/linked-lists.js">Linked Lists</a></li>
+    <li><a href="programming/project-learning/javascript/algorithms/priority-queue.js">Priority Queue</a></li>
     <li><a href="programming/project-learning/javascript/maths/collatz-conjecture.js">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/javascript/maths/prime-numbers.js">Prime Numbers</a></li>
     <li><a href="programming/project-learning/javascript/maths/russian-peasant-long-multiplication.js">Russian Peasant Long Multiplication</a></li>
@@ -192,6 +193,7 @@
     <li><a href="programming/project-learning/python/algorithms/simple-binary-search-tree.py">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/python/algorithms/hashing.py">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/python/algorithms/linked-lists.py">Linked Lists</a></li>
+    <li><a href="programming/project-learning/python/algorithms/priority-queue.py">Priority Queues</a></li>
     <li><a href="programming/project-learning/python/maths/collatz-conjecture.py">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/python/maths/prime-numbers.py">Prime Numbers</a></li>
     <li><a href="programming/project-learning/python/maths/russian-peasant-long-multiplication.py">Russian Peasant Long Multiplication</a></li>
