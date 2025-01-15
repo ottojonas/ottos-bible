@@ -1,157 +1,192 @@
-## Nmap Commands
+# Nmap Commands Cheat Sheet
 
-#### Simple Scan
+This cheat sheet contains common Nmap commands categorized for quick reference.
 
-```bash
-nmap <host>
-```
+---
 
-#### Verbose Mode
+## Basic Scans
 
-```bash
-nmap -v <host>
-```
+- **Simple Scan**  
+  Perform a basic scan of the target.
 
-#### Increased Verbose Mode
+  ```bash
+  nmap <host>
+  ```
 
-```bash
-nmap -vv <host>
-```
+- **Verbose Mode**  
+  Increase verbosity to view detailed output.
 
-#### TCP Scan
+  ```bash
+  nmap -v <host>
+  ```
 
-```bash
-nmap -sS <host>
-```
+- **Increased Verbose Mode**  
+  Maximize verbosity for highly detailed scan results.
+  ```bash
+  nmap -vv <host>
+  ```
 
-#### UDP Scan
+---
 
-```bash
-nmap -sU <host>
-```
+## Port Scans
 
-#### Scan Without Sending Packets
+- **TCP Scan**  
+  Perform a SYN (half-open) scan.
 
-```bash
-nmap -sh <network>
-```
+  ```bash
+  nmap -sS <host>
+  ```
 
-#### Host Discovery
+- **UDP Scan**  
+  Scan UDP ports of the target.
 
-```bash
-nmap sp <network>
-```
+  ```bash
+  nmap -sU <host>
+  ```
 
-#### Host with Open Ports
+- **All Ports Scan**  
+  Scan all available ports on the target.
 
-```bash
-nmap-open <network>
-```
+  ```bash
+  nmap -p- <host>
+  ```
 
-#### Ping Scan
+- **Top 1000 Ports Scan**  
+  Scan the 1000 most commonly used ports.
+  ```bash
+  nmap -p 1-1000 <host>
+  ```
 
-```bash
-nmap -Pn <host>
-```
+---
 
-#### Range of IP Addresses
+## Host Discovery
 
-```bash
-nmap <start_ip>-<end_ip>
-```
+- **Ping Scan**  
+  Identify live hosts without performing a full scan.
 
-#### All Ports
+  ```bash
+  nmap -Pn <host>
+  ```
 
-```bash
-nmap -p <host>
-```
+- **Host Discovery Without Packets**  
+  Skip packet transmission and discover hosts stealthily.
 
-#### 1000 Most Common Ports
+  ```bash
+  nmap -sn <network>
+  ```
 
-```bash
-nmap -p 1-1000 <host>
-```
+- **Discover Hosts with Open Ports**  
+  Detect live hosts with open ports in the network.
 
-#### Script Scan
+  ```bash
+  nmap --open <network>
+  ```
 
-```bash
-nmap -sC <host>
-```
+- **Scan a Range of IP Addresses**  
+  Scan multiple IPs within a specified range.
+  ```bash
+  nmap <start_ip>-<end_ip>
+  ```
 
-#### Services and Versions
+---
 
-```bash
-nmap -sV <host>
-```
+## Advanced Scans
 
-#### Complete Scan
+- **Script Scan**  
+  Use default scripts to gather additional information.
 
-```bash
-nmap -sCV <host>
-```
+  ```bash
+  nmap -sC <host>
+  ```
 
-#### Operating Systems
+- **Services and Versions**  
+  Detect running services and their versions.
 
-```bash
-nmap -O <host>
-```
+  ```bash
+  nmap -sV <host>
+  ```
 
-#### Operating Systems and Services
+- **Complete Scan**  
+  Perform a scan with scripts and version detection.
 
-```bash
-nmap -A <host>
-```
+  ```bash
+  nmap -sCV <host>
+  ```
 
-#### Fast Scan of 100 Ports
+- **Operating System Detection**  
+  Identify the target's operating system.
 
-```bash
-nmap -T5-F <host>
-```
+  ```bash
+  nmap -O <host>
+  ```
 
-#### Slow Scan (avoid IDS)
+- **Aggressive Scan**  
+  Combine OS detection, version detection, script scanning, and traceroute.
+  ```bash
+  nmap -A <host>
+  ```
 
-```bash
-nmap -T1 <host>
-```
+---
 
-#### Vulnerability Scan
+## Performance and Rate Control
 
-```bash
-nmap-script vuln <host>
-```
+- **Fast Scan**  
+  Quickly scan the top 100 ports.
 
-#### Use Specific Scripts
+  ```bash
+  nmap -T5 -F <host>
+  ```
 
-```bash
-nmap-script <script> <host>
-```
+- **Slow Scan**  
+  Use low timing to avoid triggering intrusion detection systems.
 
-#### Statistics Returned Every 30 Seconds
+  ```bash
+  nmap -T1 <host>
+  ```
 
-```bash
-nmap-stats-every 30s <host>
-```
+- **Set Minimum Packet Rate**  
+  Specify a minimum number of packets per second.
+  ```bash
+  nmap --min-rate 1000 <host>
+  ```
 
-#### Minimum Packet Rate
+---
 
-```bash
-nmap-min-rate 1000 <host>
-```
+## Vulnerability Scans
 
-#### Top 20 Most Common Ports
+- **Default Vulnerability Scan**  
+  Use built-in scripts to check for vulnerabilities.
 
-```bash
-nmap-top-ports 20 <host>
-```
+  ```bash
+  nmap --script vuln <host>
+  ```
 
-#### Export in XML
+- **Specific Script Scan**  
+  Run a particular Nmap script.
+  ```bash
+  nmap --script <script> <host>
+  ```
 
-```bash
-nmao -oX output.xml <host>
-```
+---
 
-#### Export in Web XML
+## Reporting and Output
 
-```bash
-nmap -webxml <host>
-```
+- **Export to XML**  
+  Save scan results in XML format.
+
+  ```bash
+  nmap -oX output.xml <host>
+  ```
+
+- **Web-Friendly XML Export**  
+  Save scan results in a web-optimized XML format.
+
+  ```bash
+  nmap -oX output_web.xml <host>
+  ```
+
+- **Periodic Scan Statistics**  
+  Display scan progress every 30 seconds.
+  ```bash
+  nmap --stats-every 30s <host>
+  ```
