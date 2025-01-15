@@ -249,3 +249,9 @@
 - #### Gist
 
 #### Shell
+
+<div align = "center">
+  <a href = "https://discord.gg/wdtYdfpWy9">
+  <img src="https://discord.com/api/guilds/1291105377286357119/widget.png?style=banner2" />
+  </a>
+</div>
