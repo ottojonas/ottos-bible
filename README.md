@@ -129,6 +129,7 @@
     <li><a href="programming/project-learning/c++/algorithms/Linked_Lists.cpp">Linked Lists</a></li>
     <li><a href="programming/project-learning/c++/algorithms/hashing.cpp">Hashing</a></li>
     <li><a href="programming/project-learning/c++/algorithms/sorting_and_searching_algos.cpp">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/c++/algorithms/priority-queue.cpp">Priority Queue</a></li>
     <li><a href="programming/project-learning/c++/maths/collatz_conjecture.cpp">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/c++/maths/prime_numbers.cpp">Prime Numbers</a></li>
     <li><a href="programming/project-learning/c++/maths/russian_peasant_long_multiplication.cpp">Russian Peasant Long Multiplication</a></li>
@@ -156,6 +157,7 @@
     <li><a href="programming/project-learning/lua/algorithms/simple-binary-search-tree.lua">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/lua/algorithms/hashing.lua">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/lua/algorithms/linked-lists.lua">Linked Lists</a></li>
+    <li><a href="programming/project-learning/lua/algorithms/priority-queue.lua">Priority Queue</a></li>
     <li><a href="programming/project-learning/lua/maths/collatz-conjecture.lua">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/lua/maths/prime-numbers.lua">Prime Numbers</a></li>
     <li><a href="programming/project-learning/lua/maths/russian-peasant-long-multiplication.lua">Russian Peasant Long Multiplication</a></li>
@@ -170,6 +172,7 @@
     <li><a href="programming/project-learning/perl/algorithms/hashing.pl">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/perl/algorithms/linked-lists.pl">Linked Lists</a></li>
     <li><a href="programming/project-learning/perl/maths/collatz-conjecture.pl">Collatz Conjecture</a></li>
+    <li><a href="programming/project-learning/perl/algorithms/priority-queue.pl">Priority Queue</a></li>
     <li><a href="programming/project-learning/perl/maths/prime-numbers.pl">Prime Numbers</a></li>
     <li><a href="programming/project-learning/perl/maths/russian-peasant-long-multiplication.pl">Russian Peasant Long Multiplication</a></li>
   </ul>
@@ -181,6 +184,7 @@
     <li><a href="programming/project-learning/php/algorithms/simple-binary-search-tree.php">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/php/algorithms/hashing.php">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/php/algorithms/linked-lists.php">Linked Lists</a></li>
+    <li><a href="programming/project-learning/php/algorithms/priority-queue.php">Priority Queue</a></li>
     <li><a href="programming/project-learning/php/maths/collatz-conjecture.php">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/php/maths/prime-numbers.php">Prime Numbers</a></li>
     <li><a href="programming/project-learning/php/maths/russian-peasant-long-multiplication.php">Russian Peasant Long Multiplication</a></li>
@@ -207,6 +211,7 @@
     <li><a href="programming/project-learning/r/algorithms/simple-binary-search-tree.r">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/r/algorithms/hashing.r">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/r/algorithms/linked-lists.r">Linked Lists</a></li>
+    <li><a href="programming/project-learning/r/algorithms/priority-queue.r">Priority Queue</a></li>
     <li><a href="programming/project-learning/r/maths/collatz-conjecture.r">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/r/maths/prime-numbers.r">Prime Numbers</a></li>
     <li><a href="programming/project-learning/r/maths/russian-peasant-long-multiplication.r">Russian Peasant Long Multiplication</a></li>
@@ -219,6 +224,7 @@
     <li><a href="programming/project-learning/ruby/algorithms/simple-binary-search-tree.ru">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/ruby/algorithms/hashing.ru">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/ruby/algorithms/linked-lists.ru">Linked Lists</a></li>
+    <li><a href="programming/project-learning/ruby/algorithms/priority-queue.ru">Priority Queue</a></li>
     <li><a href="programming/project-learning/ruby/maths/collatz-conjecture.ru">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/ruby/maths/prime-numbers.ru">Prime Numbers</a></li>
     <li><a href="programming/project-learning/ruby/maths/russian-peasant-long-multiplication.ru">Russian Peasant Long Multiplication</a></li>
