@@ -84,7 +84,19 @@
 
 #### 🏯 Linux
 
-##### [Distros](operating-systems/linux/distros.md)
+##### Distros
+
+- [Summary of Linux Distros](operating-systems/linux/distros.md)
+
+##### Installing Linux
+
+- [Live USB/DVD](operating-systems/linux/booting/live-usb.md)
+- [Dual Boot](operating-systems/linux/booting/dual-boot.md)
+- [Virtual Machine](operating-systems/linux/booting/virtual-machine.md)
+- [Network](operating-systems/linux/booting/network.md)
+- [Container](operating-systems/linux/booting/container.md)
+- [Wubi (Windows-based Installer)](operating-systems/linux/booting/wubi.md)
+- [Custom](operating-systems/linux/booting/custom.md)
 
 #### 🏯 Windows
 
