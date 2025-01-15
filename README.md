@@ -127,7 +127,7 @@
 
 <details>
   <summary><a href = "programming/project-learning/c++">C++</a></summary>
-  <ul">
+  <ul>
     <li><a href="programming/project-learning/c++/algorithms/Binary_Search.cpp">Binary Search</a></li>
     <li><a href="programming/project-learning/c++/algorithms/Linked_Lists.cpp">Linked Lists</a></li>
     <li><a href="programming/project-learning/c++/algorithms/hashing.cpp">Hashing</a></li>
