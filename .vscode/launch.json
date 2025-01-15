@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/otto.jonas/Documents/projects/github/ottojonas-repos/ottos-bible/programming/project-learning/python/algorithms",
-      "program": "c:/Users/otto.jonas/Documents/projects/github/ottojonas-repos/ottos-bible/programming/project-learning/python/algorithms/build/Debug/outDebug",
+      "cwd": "c:/Users/otto.jonas/Documents/projects/github/ottojonas-repos/ottos-bible/programming/project-learning/perl/maths",
+      "program": "c:/Users/otto.jonas/Documents/projects/github/ottojonas-repos/ottos-bible/programming/project-learning/perl/maths/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
