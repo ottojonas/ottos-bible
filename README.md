@@ -84,7 +84,35 @@
 
 #### 🏯 Linux
 
-##### [Distros](operating-systems/linux/distros.md)
+##### Distros
+
+- [Summary of Linux Distros](operating-systems/linux/distros.md)
+
+##### **Common Boot/Install Methods**
+
+1. [**Booting from a USB Drive**](operating-systems/linux/booting/live-usb.md)
+   Most common for modern hardware. Requires creating a bootable USB with the Linux ISO.
+
+2. [**Booting from a CD/DVD**](operating-systems/linux/booting/cd.md)  
+   Older method, used for systems that support optical drives.
+
+3. [**Network Boot (PXE)**](operating-systems/linux/booting/network.md)  
+   Suitable for deploying Linux on multiple systems over a network.
+
+4. [**Dual-Boot Installation**](operating-systems/linux/booting/dual-boot.md)  
+   Allows Linux to coexist with another OS, like Windows.
+
+5. [**Virtual Machine Installation**](operating-systems/linux/booting/virtual-machine.md)  
+   Installs Linux inside a virtualized environment.
+
+6. [**Cloud/Remote Installation**](operating-systems/linux/booting/cloud.md)  
+   For virtual servers in cloud environments like AWS, Azure, or Google Cloud.
+
+7. [**Minimal or NetInstall**](operating-systems/linux/booting/minimal.md)  
+   Installs only a basic system with additional components downloaded during the process.
+
+8. [**Live Environment Installation**](operating-systems/linux/booting/live-environment.md)
+   Boots into a live Linux session and installs from there.
 
 #### 🏯 Windows
 
