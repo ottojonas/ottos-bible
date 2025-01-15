@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Prompt the user to enter a range and read the input into the variable 'p'
 read -p "range: " p
 
 # Initialize an array of boolean values representing primality, initially all set to "T" (True)
