@@ -49,6 +49,11 @@
 - [Floating Point](fundamental-knowledge/maths/floating-point.md)
 - [Two's Compliment](fundamental-knowledge/maths/twos-compliment.md)
 
+### 🏯 [Programming Techniques](fundamental-knowledge/programming-techniques)
+
+- [Procedural Programming](fundamental-knowledge/programming-techniques/procedural-programming.md)
+- [Object Orientated Programming](fundamental-knowledge/programming-techniques/object-orientated-programming.md)
+
 ---
 
 ## Repos
