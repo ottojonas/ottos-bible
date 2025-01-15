@@ -1,5 +1,5 @@
 ---
-modified: 2025-01-08T13:36:40.802Z
+modified: 2025-01-15T13:04:32.966Z
 title: Contributing
 ---
 
@@ -29,7 +29,7 @@ title: Contributing
     <ul>
     <li>No spam / troll issues</li>
     <li>Personal Issues can be raised in the:
-    <ul><li><a href = "https://discord.gg/NsVBm3gExu">Discord Server</a></li>
+    <ul><li><a href = "https://discord.gg/wdtYdfpWy9">Discord Server</a></li>
     <li><a href = "">Stack Overflow</a></li>
     </ul>
     </li>
