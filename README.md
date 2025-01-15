@@ -48,6 +48,8 @@
 
 - [Floating Point](fundamental-knowledge/maths/floating-point.md)
 - [Two's Compliment](fundamental-knowledge/maths/twos-compliment.md)
+- [Number Bases](fundamental-knowledge/maths/number-bases.md)
+- [Base Conversions](fundamental-knowledge/maths/base-conversion.md)
 
 ### 🏯 [Programming Techniques](fundamental-knowledge/programming-techniques)
 
