@@ -116,6 +116,7 @@
     <li><a href="programming/project-learning/bash/algorithms/simple-binary-search-tree.bash">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/bash/algorithms/hashing.bash">Hashing Algorithm</a></li>
     <li><a href="programming/project-learning/bash/algorithms/linked-lists.bash">Linked Lists</a></li>
+    <li><a href="programming/project-learning/bash/algorithms/circle-queue.bash">Circle Queue</a></li>
     <li><a href="programming/project-learning/bash/maths/collatz-conjecture.bash">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/bash/maths/prime-numbers.bash">Prime Numbers</a></li>
     <li><a href="programming/project-learning/bash/maths/russian-peasant-long-multiplication.bash">Russian Peasant Long Multiplication</a></li>
@@ -129,6 +130,7 @@
     <li><a href="programming/project-learning/c++/algorithms/Linked_Lists.cpp">Linked Lists</a></li>
     <li><a href="programming/project-learning/c++/algorithms/hashing.cpp">Hashing</a></li>
     <li><a href="programming/project-learning/c++/algorithms/sorting_and_searching_algos.cpp">Sorting and Searching Algorithms</a></li>
+    <li><a href="programming/project-learning/c++/algorithms/circle-queue.cpp">Circle Queue</a></li>
     <li><a href="programming/project-learning/c++/algorithms/priority-queue.cpp">Priority Queue</a></li>
     <li><a href="programming/project-learning/c++/maths/collatz_conjecture.cpp">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/c++/maths/prime_numbers.cpp">Prime Numbers</a></li>
@@ -142,6 +144,7 @@
     <li><a href="programming/project-learning/javascript/algorithms/sorting-and-searching-algorithms.js">Sorting and Searching Algorithms</a></li>
     <li><a href="programming/project-learning/javascript/algorithms/simple-binary-search-tree.js">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/javascript/algorithms/hashing.js">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/javascript/algorithms/circle-queue.js">Circle Queue</a></li>
     <li><a href="programming/project-learning/javascript/algorithms/linked-lists.js">Linked Lists</a></li>
     <li><a href="programming/project-learning/javascript/algorithms/priority-queue.js">Priority Queue</a></li>
     <li><a href="programming/project-learning/javascript/maths/collatz-conjecture.js">Collatz Conjecture</a></li>
@@ -156,6 +159,7 @@
     <li><a href="programming/project-learning/lua/algorithms/sorting-and-searching-algorithms.lua">Sorting and Searching Algorithms</a></li>
     <li><a href="programming/project-learning/lua/algorithms/simple-binary-search-tree.lua">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/lua/algorithms/hashing.lua">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/lua/algorithms/circle-queue.lua">Circle Queue</a></li>
     <li><a href="programming/project-learning/lua/algorithms/linked-lists.lua">Linked Lists</a></li>
     <li><a href="programming/project-learning/lua/algorithms/priority-queue.lua">Priority Queue</a></li>
     <li><a href="programming/project-learning/lua/maths/collatz-conjecture.lua">Collatz Conjecture</a></li>
@@ -170,6 +174,7 @@
     <li><a href="programming/project-learning/perl/algorithms/sorting-and-searching-algorithms.pl">Sorting and Searching Algorithms</a></li>
     <li><a href="programming/project-learning/perl/algorithms/simple-binary-search-tree.pl">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/perl/algorithms/hashing.pl">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/perl/algorithms/circle-queue.pl">Circle Queue</a></li>
     <li><a href="programming/project-learning/perl/algorithms/linked-lists.pl">Linked Lists</a></li>
     <li><a href="programming/project-learning/perl/maths/collatz-conjecture.pl">Collatz Conjecture</a></li>
     <li><a href="programming/project-learning/perl/algorithms/priority-queue.pl">Priority Queue</a></li>
@@ -183,6 +188,7 @@
     <li><a href="programming/project-learning/php/algorithms/sorting-and-searching-algorithms.php">Sorting and Searching Algorithms</a></li>
     <li><a href="programming/project-learning/php/algorithms/simple-binary-search-tree.php">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/php/algorithms/hashing.php">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/php/algorithms/circle-queue.php">Circle Queue</a></li>
     <li><a href="programming/project-learning/php/algorithms/linked-lists.php">Linked Lists</a></li>
     <li><a href="programming/project-learning/php/algorithms/priority-queue.php">Priority Queue</a></li>
     <li><a href="programming/project-learning/php/maths/collatz-conjecture.php">Collatz Conjecture</a></li>
@@ -196,6 +202,7 @@
     <li><a href="programming/project-learning/python/algorithms/sorting-and-searching-algorithms.py">Sorting and Searching Algorithms</a></li>
     <li><a href="programming/project-learning/python/algorithms/simple-binary-search-tree.py">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/python/algorithms/hashing.py">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/python/algorithms/circle-queue.py">Circle Queue</a></li>
     <li><a href="programming/project-learning/python/algorithms/linked-lists.py">Linked Lists</a></li>
     <li><a href="programming/project-learning/python/algorithms/priority-queue.py">Priority Queues</a></li>
     <li><a href="programming/project-learning/python/maths/collatz-conjecture.py">Collatz Conjecture</a></li>
@@ -210,6 +217,7 @@
     <li><a href="programming/project-learning/r/algorithms/sorting-and-searching-algorithms.r">Sorting and Searching Algorithms</a></li>
     <li><a href="programming/project-learning/r/algorithms/simple-binary-search-tree.r">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/r/algorithms/hashing.r">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/r/algorithms/circle-queue.r">Circle Queue</a></li>
     <li><a href="programming/project-learning/r/algorithms/linked-lists.r">Linked Lists</a></li>
     <li><a href="programming/project-learning/r/algorithms/priority-queue.r">Priority Queue</a></li>
     <li><a href="programming/project-learning/r/maths/collatz-conjecture.r">Collatz Conjecture</a></li>
@@ -223,6 +231,7 @@
     <li><a href="programming/project-learning/ruby/algorithms/sorting-and-searching-algorithms.ru">Sorting and Searching Algorithms</a></li>
     <li><a href="programming/project-learning/ruby/algorithms/simple-binary-search-tree.ru">Simple Binary Search Tree</a></li>
     <li><a href="programming/project-learning/ruby/algorithms/hashing.ru">Hashing Algorithm</a></li>
+    <li><a href="programming/project-learning/ruby/algorithms/circle-queue.ru">Circle Queue</a></li>
     <li><a href="programming/project-learning/ruby/algorithms/linked-lists.ru">Linked Lists</a></li>
     <li><a href="programming/project-learning/ruby/algorithms/priority-queue.ru">Priority Queue</a></li>
     <li><a href="programming/project-learning/ruby/maths/collatz-conjecture.ru">Collatz Conjecture</a></li>
