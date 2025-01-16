@@ -138,12 +138,12 @@ Coming Soon...
 
 ### Programming Projects
 
-- [Cryptography]()
-  - [AES]()
-  - [RSA]()
-  - [Blowfish]()
-  - [Triple DES]()
-  - [Twofish]()
+- [Basic Cryptography](cyber-security-and-hacking/programming-projects/basic-cryptography)
+  - [AES](cyber-security-and-hacking/programming-projects/basic-cryptography/aes/)
+  - [RSA](cyber-security-and-hacking/programming-projects/basic-cryptography/rsa-security/)
+  - [Blowfish](cyber-security-and-hacking/programming-projects/basic-cryptography/blowfish)
+  - [Triple DES](cyber-security-and-hacking/programming-projects/basic-cryptography/triple-des)
+  - [Twofish](cyber-security-and-hacking/programming-projects/basic-cryptography/twofish)
 - [Basic Honeypot]()
 - [Keylogger]()
 - [Malware]()

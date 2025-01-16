@@ -1,0 +1,15 @@
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/bin/Debug/net8.0/AESProject
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/bin/Debug/net8.0/AESProject.deps.json
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/bin/Debug/net8.0/AESProject.runtimeconfig.json
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/bin/Debug/net8.0/AESProject.dll
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/bin/Debug/net8.0/AESProject.pdb
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/AESProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/AESProject.AssemblyInfoInputs.cache
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/AESProject.AssemblyInfo.cs
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/AESProject.csproj.CoreCompileInputs.cache
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/AESProject.sourcelink.json
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/AESProject.dll
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/refint/AESProject.dll
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/AESProject.pdb
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/AESProject.genruntimeconfig.cache
+/home/otto/coding/cyber-security-projects/basicCryptography/AES/AESProject/obj/Debug/net8.0/ref/AESProject.dll
