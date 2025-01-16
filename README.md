@@ -150,6 +150,7 @@ Coming Soon...
 - [Packet Sniffer]()
   - [Basic Python](cyber-security-and-hacking/programming-projects/packet-sniffer/basic-python/README.md)
 - [Password Cracker]()
+  - [Basic Python](cyber-security-and-hacking/programming-projects/password-cracker/basic-python/README.md)
 
 ---
 
