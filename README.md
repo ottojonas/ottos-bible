@@ -136,6 +136,22 @@ Coming Soon...
 - [SSL Labs](https://ssllabs.com)
 - [Hardenize](https://hardenize.com)
 
+### Programming Projects
+
+- [Basic Cryptography](cyber-security-and-hacking/programming-projects/basic-cryptography)
+  - [AES](cyber-security-and-hacking/programming-projects/basic-cryptography/aes/)
+  - [RSA](cyber-security-and-hacking/programming-projects/basic-cryptography/rsa-security/)
+  - [Blowfish](cyber-security-and-hacking/programming-projects/basic-cryptography/blowfish)
+  - [Triple DES](cyber-security-and-hacking/programming-projects/basic-cryptography/triple-des)
+  - [Twofish](cyber-security-and-hacking/programming-projects/basic-cryptography/twofish)
+- [Basic Honeypot]()
+- [Keylogger]()
+- [Malware]()
+- [Packet Sniffer]()
+  - [Basic Python](cyber-security-and-hacking/programming-projects/packet-sniffer/basic-python/README.md)
+- [Password Cracker]()
+  - [Basic Python](cyber-security-and-hacking/programming-projects/password-cracker/basic-python/README.md)
+
 ---
 
 ## Operating Systems
