@@ -144,12 +144,12 @@ Coming Soon...
   - [Blowfish](cyber-security-and-hacking/programming-projects/basic-cryptography/blowfish)
   - [Triple DES](cyber-security-and-hacking/programming-projects/basic-cryptography/triple-des)
   - [Twofish](cyber-security-and-hacking/programming-projects/basic-cryptography/twofish)
-- [Basic Honeypot]()
+- [Basic Honeypot](cyber-security-and-hacking/programming-projects/basic-honeypot)
 - [Keylogger]()
 - [Malware]()
-- [Packet Sniffer]()
+- [Packet Sniffer](cyber-security-and-hacking/programming-projects/packet-sniffer)
   - [Basic Python](cyber-security-and-hacking/programming-projects/packet-sniffer/basic-python/README.md)
-- [Password Cracker]()
+- [Password Cracker](cyber-security-and-hacking/programming-projects/password-cracker)
   - [Basic Python](cyber-security-and-hacking/programming-projects/password-cracker/basic-python/README.md)
 
 ---
