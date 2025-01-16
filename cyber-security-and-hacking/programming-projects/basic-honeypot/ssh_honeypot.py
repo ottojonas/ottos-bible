@@ -12,10 +12,10 @@ from icecream import ic
 # Constants
 SSH_BANNER = "SSH-2.0-MySSHServer_1.0"
 
-# get base dir of where user is running honeypy from
+# Get base directory of where the user is running honeypy from
 base_dir = base_dir = Path(__file__).parent.parent
 
-# source creds_audits.log and cmd_audits.log file path
+# Source creds_audits.log and cmd_audits.log file paths
 server_key = base_dir / "honeypotSetup" / "static" / "server.key"
 creds_audits_log_local_file_path = (
     base_dir / "honeypotSetup" / "log_files" / "creds_audits.log"
@@ -24,14 +24,14 @@ cmd_audits_log_local_file_path = (
     base_dir / "honeypotSetup" / "log_files" / "cmd_audits.log"
 )
 
-# ssh server host key
+# SSH server host key
 private_key_password = getpass.getpass(prompt="enter password for server.key: ")
 host_key = paramiko.RSAKey(filename=server_key, password=private_key_password)
 
-# logging format
+# Logging format
 logging_format = logging.Formatter("%(message)s")
 
-# funnel (catch all) logger
+# Funnel (catch all) logger
 funnel_logger = logging.getLogger("FunnelLogger")
 funnel_logger.setLevel(logging.INFO)
 funnel_handler = RotatingFileHandler(
@@ -40,7 +40,7 @@ funnel_handler = RotatingFileHandler(
 funnel_handler.setFormatter(logging_format)
 funnel_logger.addHandler(funnel_handler)
 
-# credentials logger. capture ip addr, username and password
+# Credentials logger to capture IP address, username, and password
 creds_logger = logging.getLogger("CredsLogger")
 creds_logger.setLevel(logging.INFO)
 creds_handler = RotatingFileHandler(
@@ -50,7 +50,7 @@ creds_handler.setFormatter(logging_format)
 creds_logger.addHandler(creds_handler)
 
 
-# establishes options for ssh server
+# Establishes options for SSH server
 class Server(paramiko.ServerInterface):
     def __init__(self, client_ip, input_username=None, input_password=None):
         self.event = threading.Event()
@@ -94,6 +94,7 @@ class Server(paramiko.ServerInterface):
         return True
 
 
+# Emulates a shell for the SSH client
 def emulated_shell(channel, client_ip):
     channel.send(b"corporate-jumpbox2$ ")
     command = b""
@@ -104,7 +105,7 @@ def emulated_shell(channel, client_ip):
             channel.close()
         command += char
 
-        # emulate common shell commands
+        # Emulate common shell commands
         if char == b"\r":
             if command.strip() == b"exit":
                 response = b"\n goodbye\n"
@@ -150,20 +151,21 @@ def emulated_shell(channel, client_ip):
             command = b""
 
 
+# Handles client connections
 def client_handle(client, addr, username, password, tarpit=False):
     client_ip = addr[0]
     ic(f"{client_ip} connected to the server")
     try:
-        # initializes transport object using socket from client connection
+        # Initializes transport object using socket from client connection
         transport = paramiko.Transport(client)
         transport.local_version = SSH_BANNER
 
-        # creates an instance of the SSH server, adds host key to prove identity, starts ssh server
+        # Creates an instance of the SSH server, adds host key to prove identity, starts SSH server
         server = Server(client_ip, input_username=username, input_password=password)
         transport.add_server_key(host_key)
         transport.start_server(server=server)
 
-        # establishes an encrypted tunnel for bidirectional communication between client and server
+        # Establishes an encrypted tunnel for bidirectional communication between client and server
         channel = transport.accept(100)
 
         if channel is None:
@@ -172,28 +174,28 @@ def client_handle(client, addr, username, password, tarpit=False):
         standard_banner = "welcome"
 
         try:
-            # endless banner -> if tarpit option is passed then send 'endless' ssh banner
+            # Endless banner -> if tarpit option is passed then send 'endless' SSH banner
             if tarpit:
                 endless_banner = standard_banner * 100
                 for char in endless_banner:
                     channel.send(char)
                     time.sleep(8)
             
-            # standard banner -> send generic welcome banner to impersonate server
+            # Standard banner -> send generic welcome banner to impersonate server
             else:
                 channel.send(standard_banner)
 
-            # send channel connection to emulated shell for interpritation
+            # Send channel connection to emulated shell for interpretation
             emulated_shell(channel, client_ip=client_ip)
         
         except Exception as error:
             ic(error)
-    # generic catch all exception error code
+    # Generic catch all exception error code
     
     except Exception as error:
         ic(error)
 
-    # once session complete -> close transportation connection
+    # Once session complete -> close transportation connection
     finally:
         try:
             transport.close()
@@ -203,8 +205,9 @@ def client_handle(client, addr, username, password, tarpit=False):
         client.close()
 
 
+# Sets up and runs the honeypot
 def honeypot(address, port, username, password, tarpit=False):
-    # open a new socket using TCP | bind to port
+    # Open a new socket using TCP and bind to port
     socks = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
     socks.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
@@ -212,20 +215,20 @@ def honeypot(address, port, username, password, tarpit=False):
     
     socks.listen(100)
 
-    # debug to see what port is being listened to     
+    # Debug to see what port is being listened to     
     ic(f"ssh server is listening on port {port}")
 
     while True:
         try:
-            # accept connection from client and address
+            # Accept connection from client and address
             client, addr = socks.accept()
-            # start new thread to handle client connection
+            # Start new thread to handle client connection
             ssh_honeypot_thread = threading.Thread(
                 target=client_handle, args=(client, addr, username, password, tarpit)
             )
             ssh_honeypot_thread.start()
 
         except Exception as error:
-            # catch all exception error code
+            # Catch all exception error code
             ic("could not open new client connection")
             ic(error)
