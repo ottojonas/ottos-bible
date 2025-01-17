@@ -136,7 +136,13 @@ Coming Soon...
 - [SSL Labs](https://ssllabs.com)
 - [Hardenize](https://hardenize.com)
 
-### Programming Projects
+### 🏯 Malware
+
+### MacOS
+
+- [Inficere](cyber-security-and-hacking/malware/macos/inficere/README.md)
+
+### 🏯 Programming Projects
 
 - [Basic Cryptography](cyber-security-and-hacking/programming-projects/basic-cryptography)
   - [AES](cyber-security-and-hacking/programming-projects/basic-cryptography/aes/)
