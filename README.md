@@ -162,7 +162,6 @@ Coming Soon...
 
 - [Discord Bot](cyber-security-and-hacking/threat-intelligence/discord-bot/README.md)
 
-
 ---
 
 ## Operating Systems
