@@ -9,10 +9,10 @@ from web_honeypot import *
 
 if __name__ == "__main__":
 
-    # create parser
+    # Create argument parser
     parser = argparse.ArgumentParser()
 
-    # add arguments to parser | these are used in terminal command
+    # Add arguments to parser | these are used in terminal command
     parser.add_argument("-a", "--address", type=str, required=True)
     parser.add_argument("-p", "--port", type=int, required=True)
     parser.add_argument("-u", "--username", type=str)
@@ -22,10 +22,10 @@ if __name__ == "__main__":
     parser.add_argument("-wh", "--http", action="store_true")
     args = parser.parse_args()
 
-    # parse args based on user supplied arg
+    # Parse args based on user supplied arg
     try:
         if args.ssh:
-            ic("running http wordpress honeypot")
+            ic("running SSH honeypot")
             honeypot(args.address, args.port, args.username, args.password, args.tarpit)
 
         elif args.http:

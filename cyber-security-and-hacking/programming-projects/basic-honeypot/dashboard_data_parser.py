@@ -9,6 +9,7 @@ from icecream import ic
 def parse_creds_audits_log(creds_audits_log_file):
     data = []
 
+    # Open the credentials audit log file and read line by line
     with open(creds_audits_log_file, "r") as file:
         for line in file:
             parts = line.strip().split(", ")
@@ -17,6 +18,7 @@ def parse_creds_audits_log(creds_audits_log_file):
             password = parts[2]
             data.append([ip_address, username, password])
 
+    # Create a DataFrame from the parsed data
     df = pd.DataFrame(data, columns=["ip_address", "username", "password"])
     return df
 
@@ -25,6 +27,7 @@ def parse_creds_audits_log(creds_audits_log_file):
 def parse_cmd_audits_log(cmd_audits_log_file):
     data = []
 
+    # Open the command audit log file and read line by line
     with open(cmd_audits_log_file, "r") as file:
         for line in file:
             lines = line.strip().split("\n")
@@ -38,12 +41,13 @@ def parse_cmd_audits_log(cmd_audits_log_file):
                     command, ip = match.groups()
                     data.append({"IP Address": ip, "Command": command})
 
+    # Create a DataFrame from the parsed data
     df = pd.DataFrame(data)
 
     return df
 
 
-# generate top 10 values from a df | supply column name | countrs how ofen each value occurs | stores in count column then returns to df with value / count
+# generate top 10 values from a df | supply column name | counts how often each value occurs | stores in count column then returns to df with value / count
 def top_10_calculator(dataframe, column):
     top_10_df = pd.DataFrame()
     for col in dataframe.columns:
@@ -98,6 +102,7 @@ def ip_to_country_code(dataframe):
         parse_get_country = get_country[0]["Country_Code"]
         data.append({"IP Address": ip, "Country_Code:": parse_get_country})
 
+    # Create a DataFrame from the parsed data
     df = pd.DataFrame(data)
     ic(df)
     return df
