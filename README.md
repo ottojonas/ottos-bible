@@ -158,6 +158,10 @@ Coming Soon...
 - [Password Cracker](cyber-security-and-hacking/programming-projects/password-cracker)
   - [Basic Python](cyber-security-and-hacking/programming-projects/password-cracker/basic-python/README.md)
 
+### 🏯 Threat Intelligence
+
+- [Discord Bot](cyber-security-and-hacking/threat-intelligence/discord-bot/README.md)
+
 ---
 
 ## Operating Systems
