@@ -1,5 +1,5 @@
 ---
-modified: 2025-01-14T21:26:05.854Z
+modified: 2025-01-20T12:09:31.180Z
 title: Abstract Data Types
 ---
 
@@ -23,6 +23,7 @@ Primitive data types form the foundation for building other data types, includin
 Abstract data types (ADTs) are built using primitive data types and provide higher-level data structures.
 
 ### 1. **Array**
+
 - **Definition**: A static data structure where elements are indexed.
 - **Key Features**:
   - Elements must be of the same data type.
@@ -33,23 +34,62 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 ---
 
 ### 2. **List**
+
 - **Definition**: A [Dynamic Data Structure](dynamic-data-structure.md) that adjusts size as needed.
 - **Key Features**:
   - Can grow or shrink dynamically.
   - Supports elements of varying data types.
   - Provides sequential access to elements.
+- **Behaviors**:
+  - **Append**: Add an item to the list.
+  - **Delete**: Remove an item from the list.
+  - **Edit**: Change an item in the list.
+  - **Output/Read**: Retrieve list items.
+  - **Search**: Locate an item in the list.
+- **Implementation**:
+  - **Using Arrays**:
+    - Predefined size.
+    - Requires shifting items during deletions.
+    - Functions include:
+      - `append()` for adding items.
+      - `isFull()` to check if the array is full.
+      - `delete()` and `shuffle()` to handle item removal and rearrangement.
+      - `linearSearch()` for finding an item sequentially.
+  - **Using Memory**:
+    - Composed of nodes containing data and pointers.
+    - **Node Structure**:
+      - `[Data][Next Pointer]`.
+    - Pointers include:
+      - **Head Pointer**: Points to the first item.
+      - **Next Free Pointer**: Indicates the next available space.
+    - **Dynamic Features**:
+      - Supports growth and shrinkage.
+      - Allows custom ordering (e.g., alphabetical, numerical).
+    - Types of linked lists:
+      - **Single Linked List**: One pointer per node.
+      - **Doubly Linked List**: Two pointers per node.
+      - **Circular List**: Tail pointer links back to the head for a continuous structure.
 
 ---
 
-### 3. **Tuple**
-- **Definition**: An immutable array.
+### 3. **String**
+
+- **Definition**: A composite data type built from primitive characters.
 - **Key Features**:
-  - Elements cannot be modified after creation.
-  - Can contain multiple data types.
+  - Encapsulation: Combines data (characters) with operations (functions).
+  - Data Hiding: Restricts direct access to internal representation.
+- **Functionalities**:
+  - `string.upper()`: Converts text to uppercase.
+  - `string.lower()`: Converts text to lowercase.
+  - `string.len()`: Returns the string length.
+  - **Substrings**: Extracts parts of the string.
+- **Abstraction**:
+  - Users interact with the interface (functions) without needing to know the underlying implementation.
 
 ---
 
 ### 4. **Dictionary**
+
 - **Definition**: A key-value store for fast lookups.
 - **Key Features**:
   - Keys are unique.
@@ -59,6 +99,7 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 ---
 
 ### 5. **Queue**
+
 - **Definition**: A First In, First Out (FIFO) structure.
 - **Key Features**:
   - Elements are added at the end and removed from the front.
@@ -67,6 +108,7 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 ---
 
 ### 6. **Stack**
+
 - **Definition**: A Last In, First Out (LIFO) structure.
 - **Key Features**:
   - Elements are added and removed from the top.
@@ -75,6 +117,7 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 ---
 
 ### 7. **Track**
+
 - **Definition**: A sequence of traversable elements.
 - **Key Features**:
   - Often represents paths or ordered sequences in algorithms.
@@ -82,6 +125,7 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 ---
 
 ### 8. **Graph**
+
 - **Definition**: A collection of nodes (vertices) and edges connecting them.
 - **Key Features**:
   - Represents relationships or connections.
@@ -90,8 +134,17 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 ---
 
 ### 9. **Hash Table**
+
 - **Definition**: A key-value mapping using a hash function.
 - **Key Features**:
   - Provides fast insertion, deletion, and lookup.
   - Hashing determines the storage index for each key.
 
+---
+
+### 10. **Encapsulation and Data Hiding**
+
+- **Encapsulation**:
+  - Bundles data and functions that manipulate the data together.
+- **Data Hiding**:
+  - Restricts access to internal components to maintain control and prevent misuse.
