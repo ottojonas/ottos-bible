@@ -1,5 +1,5 @@
 ---
-modified: 2025-01-20T12:09:31.180Z
+modified: 2025-01-20T12:12:54.429Z
 title: Abstract Data Types
 ---
 
@@ -112,7 +112,13 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 - **Definition**: A Last In, First Out (LIFO) structure.
 - **Key Features**:
   - Elements are added and removed from the top.
-  - Suitable for undo operations, expression evaluation, etc.
+  - **Push**: Add an item to the stack.
+  - **Pop**: Remove the top item from the stack.
+  - **Peek/Top**: View the top item without removing it.
+- **Applications**:
+  - Undo operations in text editors.
+  - Expression evaluation and parsing.
+  - Backtracking algorithms (e.g., solving mazes).
 
 ---
 
@@ -130,10 +136,38 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 - **Key Features**:
   - Represents relationships or connections.
   - Used in network modeling, pathfinding, etc.
+- **Types of Graphs**:
+  - **Directed Graph**: Edges have a direction.
+  - **Undirected Graph**: Edges do not have a direction.
+  - **Weighted Graph**: Edges have associated weights.
+  - **Unweighted Graph**: Edges have no weights.
+- **Graph Traversal Methods**:
+  - **Depth-First Search (DFS)**: Explores as far as possible along each branch before backtracking.
+  - **Breadth-First Search (BFS)**: Explores all neighbors at the current depth before moving to the next level.
 
 ---
 
-### 9. **Hash Table**
+### 9. **Tree**
+
+- **Definition**: A hierarchical data structure consisting of nodes, where each node has a parent (except the root) and zero or more children.
+- **Key Features**:
+  - One root node.
+  - Nodes connected by edges.
+  - Acyclic: No cycles exist.
+- **Types of Trees**:
+  - **Binary Tree**: Each node has at most two children.
+  - **Binary Search Tree (BST)**: A binary tree where the left child contains values less than the parent, and the right child contains values greater than the parent.
+  - **Balanced Trees**: Maintains a low height for efficient operations (e.g., AVL trees).
+  - **Heap**: A tree-based structure satisfying the heap property.
+- **Tree Traversal Methods**:
+  - **Inorder Traversal**: Left, Root, Right.
+  - **Preorder Traversal**: Root, Left, Right.
+  - **Postorder Traversal**: Left, Right, Root.
+  - **Level Order Traversal**: Traverses nodes level by level.
+
+---
+
+### 10. **Hash Table**
 
 - **Definition**: A key-value mapping using a hash function.
 - **Key Features**:
@@ -142,7 +176,7 @@ Abstract data types (ADTs) are built using primitive data types and provide high
 
 ---
 
-### 10. **Encapsulation and Data Hiding**
+### 11. **Encapsulation and Data Hiding**
 
 - **Encapsulation**:
   - Bundles data and functions that manipulate the data together.
