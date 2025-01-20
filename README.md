@@ -94,7 +94,9 @@ Coming Soon...
 
 ### 🏯 HTTP
 
-Coming Soon...
+- [HTTPS Server](networks/https-server)
+  - [Development](networks/https-server/development.md)
+  - [Resources](networks/https-server/resources.md)
 
 ### 🏯 SSL
 
