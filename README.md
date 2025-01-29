@@ -104,7 +104,9 @@ Coming Soon...
 
 ## Machine Learning & AI
 
-Coming Soon...
+### 🏯 Learning Algorithms
+
+- [Actor Critic](machine-learning-ai/learning-algorithms/actor-critic.md)
 
 ---
 
