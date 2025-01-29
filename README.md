@@ -106,7 +106,7 @@ Coming Soon...
 
 ### 🏯 Learning Algorithms
 
-- [Actor Critic](machine-learning-ai/learning-algorithms/actor-critic.md)
+- [Actor Critic](machine-learning-ai/learning-algoirthms/actor-critic.md)
 
 ---
 
