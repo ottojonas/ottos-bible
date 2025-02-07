@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AESProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5f50723519dcbaa1abb61d43c595be2c320b96a5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7b2f63808a6abb421ff6b96b8ce381d128195ed")]
 [assembly: System.Reflection.AssemblyProductAttribute("AESProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AESProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
