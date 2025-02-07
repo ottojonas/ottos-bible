@@ -140,6 +140,11 @@ Coming Soon...
 
 ### 🏯 Malware
 
+### Scripts 
+
+- [Crasher](cyber-security-and-hacking/malware/scripts/crasher.py)
+
+
 ### MacOS
 
 - [Inficere](cyber-security-and-hacking/malware/macos/inficere/README.md)
