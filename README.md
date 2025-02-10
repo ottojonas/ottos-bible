@@ -140,10 +140,9 @@ Coming Soon...
 
 ### 🏯 Malware
 
-### Scripts 
+### Scripts
 
-- [Crasher](cyber-security-and-hacking/malware/scripts/crasher.py)
-
+- [Crasher](cyber-security-and-hacking/Malware/scripts/spam/crash.py/crash.py)
 
 ### MacOS
 
