@@ -166,7 +166,7 @@ Coming Soon...
 
 ### 🏯 Threat Intelligence
 
-- [Discord Bot](cyber-security-and-hacking/threat-intelligence/discord-bot/README.md)
+- [Discord Bot](/cyber-security-and-hacking/threat-intelligence/discord-bot/README.md)
 
 ---
 
