@@ -1,17 +1,17 @@
 # Intro to Networks
 ## Table of Contents
 
-1. [What is a Network?](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-2. [Types of Networks](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-3. [Network Topologies](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-4. [Network Components](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-5. [Network Protocols](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-6. [The OSI Model](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-7. [TCP/IP Model](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-8. [IP Addressing](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-9. [Subnetting](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-10. [Routing and Switching](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
-11. [Network Security](https://www.notion.so/1c0a3c22fd8380dd8a6cc6281c1e2ddc?pvs=21)
+1. [What is a Network?](#what-is-a-network)
+2. [Types of Networks](#types-of-networks)
+3. [Network Topologies](#network-topologies)
+4. [Network Components](#network-components)
+5. [Network Protocols](#network-protocols)
+6. [The OSI Model](#the-osi-model)
+7. [TCP/IP Model](#tcpip-model)
+8. [IP Addressing](#ip-addressing)
+9. [Subnetting](#subnetting)
+10. [Routing and Switching](#routing-and-switching)
+11. [Network Security](#network-security)
 
 ---
 
