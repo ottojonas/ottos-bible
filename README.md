@@ -86,7 +86,7 @@ Coming Soon...
 
 ### 🏯 Networking Basics
 
-Coming Soon...
+- [Networking Basics / Intro](networks/intro-to-networks.md)
 
 ### 🏯 DNS
 
@@ -140,6 +140,10 @@ Coming Soon...
 
 ### 🏯 Malware
 
+### Scripts
+
+- [Crasher](cyber-security-and-hacking/Malware/scripts/spam/crash.py/crash.py)
+
 ### MacOS
 
 - [Inficere](cyber-security-and-hacking/malware/macos/inficere/README.md)
@@ -162,7 +166,7 @@ Coming Soon...
 
 ### 🏯 Threat Intelligence
 
-- [Discord Bot](cyber-security-and-hacking/threat-intelligence/discord-bot/README.md)
+- [Discord Bot](/cyber-security-and-hacking/threat-intelligence/discord-bot/README.md)
 
 ---
 
@@ -235,7 +239,7 @@ Coming Soon...
   - [Algorithms](programming/project-learning/c++/algorithms/)
     - [Circle Queue](programming/project-learning/c++/algorithms/circle-queue.cpp)
     - [Hashing](programming/project-learning/c++/algorithms/hashing.cpp)
-    - [Linked List](programming/project-learning/c++/algorithms/priority-queue.cpp)
+    - [Linked List](programming/project-learning/c++/algorithms/Linked_Lists.cpp)
     - [Priority Queue](programming/project-learning/c++/algorithms/priority-queue.cpp)
     - [Simple Binary Search Tree](programming/project-learning/c++/Binary_Search.cpp)
     - [Sorting and Searching Algorithms](programming/project-learning/c++/algorithms/sorting_and_searching_algos.cpp)
