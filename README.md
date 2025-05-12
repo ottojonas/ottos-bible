@@ -347,7 +347,7 @@ Coming Soon...
 ---
 
 <div align="center">
-  <a href="https://discord.gg/wdtYdfpWy9">
+  <a href="https://discord.gg/NYkdH2acDS">
     <img src="https://discord.com/api/guilds/1291105377286357119/widget.png?style=banner2" alt="Join our Discord" />
   </a>
 </div>
